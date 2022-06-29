@@ -6,11 +6,16 @@ import Pcrud2 from '../assets/p_crud2.png'
 
 const Work = () => {
   return (
-    <div name='work' className='py-8 w-full text-gray-300 bg-[#0a192f]'>
+    <div name='work' className='py-8 w-full text-gray-300 bg-[#3F4E4F]'>
       <div className='max-w-[1000px] mx-auto p-2 flex flex-col w-full h-full'>
         <div className='py-8'>
           <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
-            Work
+            Project
+          </p>
+        </div>
+        <div className='py-2'>
+          <p>
+          klik gambar, klik Demo untuk melihat video aplikasinya
           </p>
         </div>
 

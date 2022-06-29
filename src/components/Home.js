@@ -4,11 +4,11 @@ import aldy from '../assets/fotoaldynobg.png'
 
 const Home = () => {
   return (
-    <section name="home" className="pt-24 sm:pt-14 bg-[#0a192f]">
+    <section name="home" className="pt-24 sm:pt-14 bg-[#3F4E4F]">
     <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full self-center pl-20 pt-6 sm:pl-52 pr-4 sm:pr-0 lg:w-1/2">
-          <p className='text-pink-600'>Hi, my name is</p>
+          <div class="w-full self-center pl-20 pt-6 sm:pl-32 pr-4 sm:pr-0 lg:w-1/2">
+          <p className='text-violet-400'>Hi, my name is</p>
           <p className='text-2xl sm:text-4xl font-bold text-[#ccd6f6]'>R Muhammad Renaldy
         </p>
         <h2 className='text-2xl sm:text-2xl font-bold text-[#8892b0]'>
