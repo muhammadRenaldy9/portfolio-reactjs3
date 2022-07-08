@@ -13,8 +13,11 @@ const About = () => {
           <div></div>
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Aldy.</p>
+            <div className='lg:pl-28'>
+              <p>Name :  R Muhammad Renaldy</p>
+              <p>Age : 26 Tahun</p>
+              <p>Gender :  Male</p>
+              <p>Address :  Otista 82, Jatinegara East Jakarta</p>
             </div>
             <div>
               <p>I am a fresh graduate web developer on web application and 

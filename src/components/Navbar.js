@@ -5,7 +5,7 @@ import {
   FaGithub,
   FaLinkedin,
 } from 'react-icons/fa';
-import { ImYoutube2, ImWhatsapp } from 'react-icons/im'
+import { ImWhatsapp } from 'react-icons/im'
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 
@@ -109,14 +109,6 @@ const Navbar = () => {
               href='https://github.com/muhammadRenaldy9' target="_blank" rel="noreferrer"
             >
               Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#E51A1A]'>
-            <a
-              className='flex justify-between items-center w-full text-gray-300'
-              href='https://www.youtube.com/channel/UC7llv9HAcEmnyZPwQa9VDbw' target="_blank" rel="noreferrer"
-            >
-              Youtube <ImYoutube2 size={30} />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#16a34a]'>

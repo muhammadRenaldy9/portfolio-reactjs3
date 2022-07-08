@@ -1,5 +1,4 @@
 import React from 'react';
-import p1 from '../assets/p1.png'
 import p2 from '../assets/p2.png'
 import Pcrud from '../assets/p_crud.png'
 import Pcrud2 from '../assets/p_crud2.png'
@@ -63,76 +62,6 @@ const Work = () => {
           </div>
             {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${p1})` }}
-            className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
-                 <span className='text-amber-300'> </span>
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            style={{ backgroundImage: `url(${p2})` }}
-            className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
-                <span className='text-amber-300'> </span>
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-            {/* Grid Item */}
-          <div
-            style={{ backgroundImage: `url(${p1})` }}
-            className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
-          >
-            {/* Hover Effects */}
-            <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
-                 <span className='text-amber-300'> </span>
-              </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
             style={{ backgroundImage: `url(${p2})` }}
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -141,18 +70,6 @@ const Work = () => {
               <span className='text-sm font-bold text-white tracking-wider'>
                  <span className='text-amber-300'> </span>
               </span>
-              <div className='pt-8 text-center'>
-                <a href='/'>
-                  <button className='text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    
-                  </button>
-                </a>
-                <a href='/'>
-                  <button className='text-center rounded-full px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                    
-                  </button>
-                </a>
-              </div>
             </div>
           </div>
         </div>
