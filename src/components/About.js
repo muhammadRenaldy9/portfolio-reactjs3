@@ -14,10 +14,33 @@ const About = () => {
           </div>
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='lg:pl-28'>
-              <p>Name :  R Muhammad Renaldy</p>
-              <p>Age : 26 Tahun</p>
-              <p>Gender :  Male</p>
-              <p>Address :  Otista 82, Jatinegara East Jakarta</p>
+                <table rules="rows">
+                    <tr>
+                        <td class="pr-8">Name</td>
+                        <td class="">:</td>
+                        <td class="pl-4">R Muhammad Renaldy</td>
+                    </tr>
+                    <tr>
+                        <td class="">Age</td>
+                        <td class="">:</td>
+                        <td class="pl-4">26 Tahun</td>
+                    </tr>
+                    <tr>
+                        <td class="">Gender</td>
+                        <td class="">:</td>
+                        <td class="pl-4">Male</td>
+                    </tr>
+                    <tr>
+                        <td class="">Address</td>
+                        <td class="">:</td>
+                        <td class="pl-4">Otista 82, Jatinegara East Jakarta</td>
+                    </tr>
+                    <tr>
+                        <td class=""></td>
+                        <td class=""></td>
+                        <td class="pl-4"></td>
+                    </tr>
+                </table>
             </div>
             <div>
               <p>I am a fresh graduate web developer on web application and 
