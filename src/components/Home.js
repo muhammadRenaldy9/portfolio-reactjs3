@@ -13,7 +13,7 @@ const Home = () => {
           <p className='text-2xl sm:text-4xl font-bold text-[#ccd6f6]'>R Muhammad Renaldy
         </p>
         <h2 className='text-2xl sm:text-2xl font-bold text-[#8892b0]'>
-          Web Developer
+          Full Stack Developer
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
 
