@@ -19,27 +19,27 @@ const Navbar = () => {
       </div>
       {/* menu */}
       <ul className='hidden md:flex'>
-        <li>
+        <li className='hover:bg-sky-700 rounded-full'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li>
+        <li className='hover:bg-sky-700 rounded-full'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li>
+        <li className='hover:bg-sky-700 rounded-full'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li>
+        <li className='hover:bg-sky-700 rounded-full'>
           <Link to='work' smooth={true} duration={500}>
             Project
           </Link>
         </li>
-        <li>
+        <li className='hover:bg-sky-700 rounded-full'>
           <Link to='contact' smooth={true} duration={500}>
             Contact
           </Link>
@@ -47,8 +47,8 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className='md:hidden z-10'>
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div onClick={handleClick} className='md:hidden z-10 '>
+        {!nav ? <FaBars className='hover:bg-sky-800' /> : <FaTimes className='hover:bg-sky-100 rounded-full'/>}
       </div>
 
       {/* Mobile menu */}
@@ -59,30 +59,30 @@ const Navbar = () => {
             : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'
         }
       >
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-sky-700 rounded-full'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-sky-700 rounded-full'>
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-sky-700 rounded-full'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-sky-700 rounded-full'>
           {' '}
           <Link onClick={handleClick} to='work' smooth={true} duration={500}>
             Project
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
+        <li className='py-6 text-4xl hover:bg-sky-700 rounded-full'>
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Contact
