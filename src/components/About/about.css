@@ -1,0 +1,47 @@
+/* .garis{
+    width: 2px;
+    height: 25px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.image-overlay-featured {
+  position: relative;
+  padding-bottom: 75%;
+  overflow: hidden;
+}
+
+.image-overlay-featured img {
+  position: absolute;
+  object-fit: cover;
+}
+
+.overlay-featured {
+  position: absolute;
+  width: 90%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: white;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.text_featured{
+  font-size: 20px;
+  line-height: 100%;
+  background-color: red;
+} */
+
+
+p {
+  line-height: 32px;
+  letter-spacing: 4px;
+}
+
+td {
+  line-height: 30px;
+  letter-spacing: 2px;
+}

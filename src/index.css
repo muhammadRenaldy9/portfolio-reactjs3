@@ -28,3 +28,11 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
+
+
+.title_left {
+    background: linear-gradient(170deg, #FFFFFF 13%, #117b9e 31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+  }

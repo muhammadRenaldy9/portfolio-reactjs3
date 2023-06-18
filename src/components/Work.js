@@ -15,7 +15,7 @@ const Work = () => {
     <div name='work' className='py-8 w-full text-gray-300 bg-[#3F4E4F]'>
       <div className='max-w-[1000px] mx-auto p-2 flex flex-col w-full h-full'>
         <div className='py-8'>
-          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>
+          <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600 title_left'>
             Project
           </p>
         </div>
@@ -60,7 +60,7 @@ const Work = () => {
               </div> */}
             </div>
           </div>
-          <div
+          {/* <div
             style={{ backgroundImage: `url(${p2})` }}
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
@@ -69,7 +69,7 @@ const Work = () => {
                  <span className='text-amber-300'> </span>
               </span>
             </div>
-          </div>
+          </div> */}
           <div
             style={{ backgroundImage: `url(${Tokomutu})` }}
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'

@@ -9,7 +9,7 @@ const Home = () => {
     <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center pl-20 pt-6 sm:pl-32 pr-4 sm:pr-0 lg:w-1/2">
-          <p className='text-violet-400'>My name is</p>
+          <p className='text-violet-400 title_left'>My name is</p>
           <p className='text-2xl sm:text-4xl font-bold text-[#ccd6f6]'>R Muhammad Renaldy
         </p>
         <h2 className='text-2xl sm:text-2xl font-bold text-[#8892b0]'>
