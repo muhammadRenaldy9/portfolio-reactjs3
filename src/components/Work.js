@@ -30,7 +30,7 @@ const Work = () => {
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
+              <span className='text-lg font-bold text-white tracking-wider'>
                 Fullstack Website Authentication CRUD, Client CRUD <span className='text-amber-300'> with Mysql, Nodejs, Expressjs, sequelize, React JS, Tailwindcss</span>
               </span>
               {/* <div className='mt-12 text-center'>
@@ -48,7 +48,7 @@ const Work = () => {
           >
             {/* Hover Effects */}
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
+              <span className='text-lg font-bold text-white tracking-wider'>
                 Fullstack Website CRUD Travel<span className='text-amber-300'> with Mysql, Nodejs, Expressjs, sequelize, React JS</span>
               </span>
               {/* <div className='pt-8 text-center'>
@@ -65,7 +65,7 @@ const Work = () => {
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
+              <span className='text-lg font-bold text-white tracking-wider'>
                  <span className='text-amber-300'> </span>
               </span>
             </div>
@@ -75,7 +75,7 @@ const Work = () => {
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
+              <span className='text-lg font-bold text-white tracking-wider'>
               Tokomutu application<span className='text-amber-300'> built using Laravel8 backend, ReactJS & TS frontend, DB PostgreSQL, and Google Analytics</span>
               </span>
               <div className='pt-8 text-center'>
@@ -92,7 +92,7 @@ const Work = () => {
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
+              <span className='text-lg font-bold text-white tracking-wider'>
               Telkom Metra application management business<span className='text-amber-300'> built using Laravel9 backend, DB Oracle</span>
               </span>
             </div>
@@ -102,7 +102,7 @@ const Work = () => {
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
+              <span className='text-lg font-bold text-white tracking-wider'>
               Unzyp Portfolio<span className='text-amber-300'> built using Laravel9</span>
               </span>
             </div>
@@ -112,7 +112,7 @@ const Work = () => {
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
+              <span className='text-lg font-bold text-white tracking-wider'>
               Unzyp NFT application<span className='text-amber-300'> built using ReactJS</span>
               </span>
               <div className='pt-8 text-center'>
@@ -129,7 +129,7 @@ const Work = () => {
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
+              <span className='text-lg font-bold text-white tracking-wider'>
               Spacestation six NFT<span className='text-amber-300'> built using NextJS</span>
               </span>
             </div>
@@ -139,7 +139,7 @@ const Work = () => {
             className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             <div className='text-center opacity-0 group-hover:opacity-100'>
-              <span className='text-sm font-bold text-white tracking-wider'>
+              <span className='text-lg font-bold text-white tracking-wider'>
               Samsung Sales Kit<span className='text-amber-300'> built using Laravel9, Flutter</span>
               </span>
             </div>

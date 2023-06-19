@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Work from "./components/Work";
+import Galery from "./components/galery/Galery";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Experience/>
       <Skills />
       <Work />
+      <Galery/>
       <Contact />
     </div>
   );

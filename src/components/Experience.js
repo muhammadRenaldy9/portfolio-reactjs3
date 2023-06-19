@@ -18,8 +18,8 @@ const Experience = () => {
             <ol class="relative border-l border-gray-200 dark:border-gray-700">                  
                 <li class="mb-10 ml-4">
                     <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">August 2022 - Saat ini</time>
-                    <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+                    <time class="mb-1 text-lg font-normal leading-none text-gray-400 dark:text-gray-500">August 2022 - Saat ini</time>
+                    <h3 className=' font-semibold text-gray-900 dark:text-white'>
                         <a
                             href="https://www.unzypsoft.com/" target='_blank'
                             className="text-blue-600 dark:text-blue-500 hover:underline"
@@ -27,7 +27,7 @@ const Experience = () => {
                             PT. Unzyp Solusi Teknologi
                         </a> 
                     </h3>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Frontend Developer</h3>
+                    <h3 class=" font-semibold text-gray-900 dark:text-white mb-4">Frontend Developer</h3>
                     <h2
                         onClick={toggleAccordion}
                         className={`flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 cursor-pointer ${
@@ -94,8 +94,8 @@ const Experience = () => {
                 </li>
                 <li class="ml-4">
                     <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2019</time>
-                    <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+                    <time class="mb-1 text-lg font-normal leading-none text-gray-400 dark:text-gray-500">2019</time>
+                    <h3 className=' font-semibold text-gray-900 dark:text-white'>
                         <a
                             href="https://kreditplus.com/" target='_blank'
                             className="text-blue-600 dark:text-blue-500 hover:underline"
@@ -103,12 +103,12 @@ const Experience = () => {
                             PT. Finansia Multi Finance
                         </a> 
                     </h3>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">CMO</h3>
+                    <h3 class=" font-semibold text-gray-900 dark:text-white mb-4">CMO</h3>
                 </li>
                 <li class="ml-4">
                     <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2018</time>
-                    <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+                    <time class="mb-1 text-lg font-normal leading-none text-gray-400 dark:text-gray-500">2018</time>
+                    <h3 className=' font-semibold text-gray-900 dark:text-white'>
                         <a
                             href="https://www.rar.co.id/" target='_blank'
                             className="text-blue-600 dark:text-blue-500 hover:underline"
@@ -116,12 +116,12 @@ const Experience = () => {
                             PT. Rajawali Anugrah Resources
                         </a> 
                     </h3>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Technician</h3>
+                    <h3 class=" font-semibold text-gray-900 dark:text-white mb-4">Technician</h3>
                 </li>
                 {/* <li class="ml-4">
                     <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">2017</time>
-                    <h3 className='text-lg font-semibold text-gray-900 dark:text-white'>
+                    <time class="mb-1 text-lg font-normal leading-none text-gray-400 dark:text-gray-500">2017</time>
+                    <h3 className=' font-semibold text-gray-900 dark:text-white'>
                         <a
                             href="" target='_blank'
                             className="text-blue-600 dark:text-blue-500 hover:underline disabled"
@@ -129,7 +129,7 @@ const Experience = () => {
                             PT. Rikarya Darma Mitra
                         </a> 
                     </h3>
-                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white mb-4">Mechanic</h3>
+                    <h3 class=" font-semibold text-gray-900 dark:text-white mb-4">Mechanic</h3>
                 </li> */}
             </ol>
         </div>
