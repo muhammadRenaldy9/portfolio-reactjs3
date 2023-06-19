@@ -14,6 +14,8 @@ import Ejs from '../assets/ejs.png'
 import Bootstrap from '../assets/bootstrap.png'
 import Postgre from '../assets/Postgresql.png'
 import Mysql from '../assets/mysql2.png'
+import Flutter from '../assets/skills/flutter.png'
+import Laravel from '../assets/skills/laravel.png'
 
 const Skills = () => {
   return (
@@ -72,6 +74,14 @@ const Skills = () => {
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
                   <p className='my-4'>GITHUB</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Flutter} alt="HTML icon" />
+                  <p className='mt-10'>FLUTTER</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 mx-auto' src={Laravel} alt="HTML icon" />
+                  <p className='my-4'>LARAVEL</p>
               </div>
           </div>
       </div>
