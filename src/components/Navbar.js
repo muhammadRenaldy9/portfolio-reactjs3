@@ -110,9 +110,13 @@ const Navbar = () => {
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#16a34a]'>
-            <a
+            {/* <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://wa.link/ceoa73' target="_blank" rel="noreferrer"
+            > */}
+            <a
+              className='flex justify-between items-center w-full text-gray-300'
+              href='https://wa.link/ki76c4' target="_blank" rel="noreferrer"
             >
               WA <ImWhatsapp size={30} />
             </a>
