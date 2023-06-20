@@ -23,7 +23,7 @@ const Contact = () => {
         <div>
         <div className='lg:hidden sosmed'>
         <ul>
-          <li className='h-[80px] flex justify-between items-center bg-blue-600'>
+          <li className='h-[80px] hover:bg-sky-700 flex justify-between items-center bg-blue-600'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://www.linkedin.com/in/renaldy9/?original_referer=https%3A%2F%2Fmuhammadrenaldy9.github.io%2F' target="_blank" rel="noreferrer"
@@ -31,7 +31,7 @@ const Contact = () => {
                <FaLinkedin size={30} />
             </a>
           </li>
-          <li className='h-[80px] flex justify-between items-center bg-[#333333]'>
+          <li className='h-[80px] hover:bg-gray-800 flex justify-between items-center bg-[#333333]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://github.com/muhammadRenaldy9' target="_blank" rel="noreferrer"
@@ -39,7 +39,7 @@ const Contact = () => {
                <FaGithub size={30} />
             </a>
           </li>
-          <li className='h-[80px] flex justify-between items-center bg-[#16a34a]'>
+          <li className='h-[80px] hover:bg-green-700 flex justify-between items-center bg-[#16a34a]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='https://wa.link/ki76c4' target="_blank" rel="noreferrer"
