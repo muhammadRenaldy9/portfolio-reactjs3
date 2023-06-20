@@ -16,6 +16,7 @@ import Postgre from '../assets/Postgresql.png'
 import Mysql from '../assets/mysql2.png'
 import Flutter from '../assets/skills/flutter.png'
 import Laravel from '../assets/skills/laravel.png'
+import Metronic from '../assets/skills/metronic.png'
 
 const Skills = () => {
   return (
@@ -60,6 +61,10 @@ const Skills = () => {
                   <p className='my-4'>TAILWINDCSS</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <img className='w-20 py-3 mx-auto' src={Metronic} alt="HTML icon" />
+                  <p className='my-4'>METRONIC</p>
+              </div>
+              <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={ReactImg} alt="HTML icon" />
                   <p className='my-4'>REACT</p>
               </div>
@@ -76,8 +81,8 @@ const Skills = () => {
                   <p className='my-4'>GITHUB</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Flutter} alt="HTML icon" />
-                  <p className='mt-10'>FLUTTER</p>
+                  <img className='w-20 py-3  mx-auto' src={Flutter} alt="HTML icon" />
+                  <p className='my-4'>FLUTTER</p>
               </div>
               <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={Laravel} alt="HTML icon" />

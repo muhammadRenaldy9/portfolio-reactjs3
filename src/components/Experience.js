@@ -8,7 +8,7 @@ const Experience = () => {
     };
   
   return (
-    <div name='work' className='py-8 w-full text-gray-300 bg-[#3F4E4F]'>
+    <div name='' className='py-8 w-full text-gray-300 bg-[#3F4E4F]'>
         <div className='max-w-[1000px] mx-auto p-2 flex flex-col w-full h-full'>
             <div className='py-8 text-center'>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-600 title_left'>
