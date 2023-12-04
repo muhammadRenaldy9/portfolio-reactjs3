@@ -8,6 +8,7 @@ import Unzyp from '../assets/work/unzypnew.png'
 import UnzypProtocol from '../assets/work/unzyo-protocol.jpeg'
 import Spacestation from '../assets/work/spacestation.png'
 import Samsung from '../assets/work/samsung-combine.png'
+import Career from '../assets/work/career.png'
 import { BsFillEyeFill } from "react-icons/bs";
 
 const Work = () => {
@@ -133,6 +134,16 @@ const Work = () => {
             <div className='text-center opacity-0 group-hover:opacity-100'>
               <span className='text-lg font-bold text-white tracking-wider'>
               Samsung Sales Kit<span className='text-amber-300'> built using Laravel9, Flutter</span>
+              </span>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${Career})` }}
+            className='shadow-lg shadow-[#166534] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            <div className='text-center opacity-0 group-hover:opacity-100'>
+              <span className='text-lg font-bold text-white tracking-wider'>
+              Career Perkasa<span className='text-amber-300'> built using Laravel9, Mysql</span>
               </span>
             </div>
           </div>

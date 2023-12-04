@@ -14,6 +14,7 @@ import slide_image_3 from "../../assets/galery/kolam.jpeg";
 import slide_image_4 from "../../assets/galery/sentul4.jpg";
 import slide_image_5 from "../../assets/galery/telkom-colab3.jpg";
 import slide_image_6 from "../../assets/galery/kolam.jpeg";
+import slide_image_7 from "../../assets/galery/perkasa.jpeg";
 // import slide_image_3 from '../../assets/galery/selfie.jpeg';
 // import slide_image_6 from '../../assets/galery/telkom-colab.jpeg';
 // import slide_image_7 from '../../assets/galery/telkom-colab.jpeg';
@@ -52,7 +53,7 @@ function Galery() {
             className="swiper_container"
           >
             <SwiperSlide>
-              <img src={slide_image_1} alt="slide_image" />
+              <img src={slide_image_7} alt="slide_image" />
             </SwiperSlide>
             <SwiperSlide>
               <img src={slide_image_2} alt="slide_image" />
@@ -68,6 +69,9 @@ function Galery() {
             </SwiperSlide>
             <SwiperSlide>
               <img src={slide_image_6} alt="slide_image" />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={slide_image_1} alt="slide_image" />
             </SwiperSlide>
             {/* <SwiperSlide>
           <img src={slide_image_7} alt="slide_image" />
